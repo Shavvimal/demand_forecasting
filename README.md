@@ -4,8 +4,8 @@
  * **Metric_Comparison**: 
 ```These are a collection of notebooks intended for the comparison of the performance of Various demand forecasting models. Various metrics are used such as MAE, WMAPE, Aggregated WMAPE, wQL[0.1], wQL[0.5] (WMAPE), wQL[0.75], wQL[0.9], Mean wQL```
      + [compare_forecasts.ipynb](https://github.com/Shavvimal/demand_forecasting/blob/main/Metric_Comparison/compare_forecasts.ipynb)
-        + Joes inital Comparison using squared error. He compares an old TFT output to LSTM, ARIMA and Naive predictions.
-        + He also plots the worst performers from each models and identidfies scenarios where the models do not perform as well
+        + Inital Comparison using squared error. Compare an old TFT output to LSTM, ARIMA and Naive predictions.
+        + plots the worst performers from each models and identidfies scenarios where the models do not perform as well
      + [metric_comparison_SV.ipynb](https://github.com/Shavvimal/demand_forecasting/blob/main/Metric_Comparison/metric_comparison_SV.ipynb)
         + Notebook contains comparisons between initial models using various metrics (MAE	WMAPE	Aggregated WMAPE)
         + Also contains code at bottom showing timeseries where the TFT performs badly. This function picks out WMAPE of models higher or lower than a certain threshold
